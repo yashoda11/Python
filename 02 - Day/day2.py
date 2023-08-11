@@ -12,13 +12,13 @@ print("The Sum of", a, "and", b, "is :", a + b)
 # **Expected Output:** Greeting message with your name, e.g., "Hello, John!"
 
 name = "Yashoda!"
-print("hello,", name)
+print("hello, ", name)
 
 #3. Define a variable `pi` and assign the value of π (pi) to it. Print the value of `pi`.
 # **Expected Output:** The value of π (pi), e.g., 3.14159.
 
 pi = 3.14159
-print("The Value of π (pi) is :",pi)
+print("The Value of π (pi) is : ",pi)
 
 #4. Define a variable `is_raining` and ask the user to input either "True" or "False" (as a string). Convert the input to a boolean and print its type.
 #   - **Expected Input:** "True" or "False"
