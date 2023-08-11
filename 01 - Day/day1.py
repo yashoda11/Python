@@ -1,7 +1,8 @@
-# Print Statement :
+# Print Statement : 
+
 print("Python");
 
-# Calculations :
+#Calculations :
 
 print(3 + 2);
 print(3 - 2);
