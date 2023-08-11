@@ -32,7 +32,7 @@ print(type(is_raining_outside))
 #   - **Expected Input:** A number (e.g., "3")
 #   - **Expected Output:** The sentence repeated the specified number of times.
 
-sentence = "I Love Python"
+sentence = "I Love Python  "
 num_str = input("Enter Specified number :")
 num_int = int(num_str)
 print("The sentence repeated the specified number of times (",num_int,") is :",sentence * num_int)
