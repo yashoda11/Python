@@ -9,10 +9,11 @@
 # 5
 # 8
 
+n = int(input("Enter Range : "))
 
 num1, num2 = 0 , 1
 
-while num1 <= 10 :
+while num1 <= n :
     print(num1)
     num1, num2 = num2 , num1 + num2
     

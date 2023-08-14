@@ -11,5 +11,3 @@ while True :
     if number == 0:
         break
 print("The Sum is :", sum)
-
-    
