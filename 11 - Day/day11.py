@@ -18,4 +18,3 @@ while num <= 10:
     sum += num
     num += 1
 print ("Sum of Numners from 1 to 10 is :", sum)
-
