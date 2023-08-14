@@ -9,6 +9,7 @@ while num <= 5 :
     print (num)    
     num += 1
 
+
 # Example: Finding the sum of numbers from 1 to 10 using a while loop
 
 num = 1
