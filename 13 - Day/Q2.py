@@ -1,4 +1,5 @@
-# 2. Given a string "Hello, World!", find its length using the len() method.
+# 2. 
+# Given a string "Hello, World!", find its length using the len() method.
 # Input: "Hello, World!"
 # Expected Output: 13
 
