@@ -51,3 +51,16 @@ for num in my_list:
     print(num)
 
 print("-----------------------")
+
+# 3. Write a Python function that takes a string as input and checks if it contains the letter 'o'. If it does, print "Found 'o'" and use the `break` statement to stop searching.
+#     Input: "Hello, World!"
+#     Expected Output:
+#     Found 'o'
+
+while True:
+    string = input("Enter a String :")
+    if 'o' in string or 'O' in string:
+        print("Found 'o'")
+        break
+
+
