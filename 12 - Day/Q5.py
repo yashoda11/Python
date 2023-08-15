@@ -7,5 +7,6 @@
 # 8
 # 10
 
+print("Doubles each number in the sequence: 1, 2, 3, 4, 5 :")
 for num in range(1,6) :
     print (num*2)
