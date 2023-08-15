@@ -7,6 +7,7 @@
 # 4  8  12  16  20
 # 5  10  15  20  25
 
+
 for i in range (1, 6) :
     for j in range(1, 6) :
         print(i*j , end = "\t")
