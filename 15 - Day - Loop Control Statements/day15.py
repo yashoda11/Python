@@ -57,10 +57,43 @@ print("-----------------------")
 #     Expected Output:
 #     Found 'o'
 
+print("Question - 03")
 while True:
     string = input("Enter a String :")
     if 'o' in string or 'O' in string:
         print("Found 'o'")
         break
 
+print("-----------------------")
+
+# 4. Given a list of numbers [1, 2, 3, 4, 5], use a `for` loop to double each element and print the result. However, if the element is 4, use the `continue` statement to skip it.
+# Expected Output:
+# 2
+# 4
+# 6
+# 10    
+
+print("Question - 04")
+my_list = [1, 2, 3, 4, 5]
+for num in my_list:
+    if num == 4:
+        continue
+    print(num*2)
+
+print("-----------------------")
+
+# 5. Write a Python program to print all numbers from 1 to 20 using a `while` loop. However, stop the loop when reaching 15 using the `break` statement.
+# Expected Output:
+# 1
+# 2
+# 3
+# ... (up to 15)
+
+print("Question - 05")
+num = 1
+while num <= 20 :
+    if num == 16:
+        break
+    print(num)
+    num +=1
 
