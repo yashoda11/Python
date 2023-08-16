@@ -65,4 +65,12 @@ print(fruits)  # Output: ['apple', 'orange', 'grape']
 # Sorting elements
 fruits.sort()
 print(fruits)  # Output: ['apple', 'grape', 'orange']
+
+#join 
+# Input: ["apple", "banana", "orange"]
+# Expected Output: "apple banana orange"
+
+list_of_strings = ["apple", "banana", "orange"]
+result = " ".join(list_of_strings)
+print(result)
 ```

@@ -78,3 +78,17 @@ print("----------------------------")
 # 3. Write a Python function that takes a list of numbers as input and returns the sum of all the numbers.
 # Input: [1, 2, 3, 4, 5]
 # Expected Output: 15
+
+print("Question - 03")
+
+input_numbers = input("Enter a list of Numbers (Space Seperated) : ")
+list_numbers = [int(num) for num in input_numbers.split()]
+sum_of_numbers = sum(list_numbers)
+print("The Sum of Numbers for the given List numbers", list_numbers, "are :", sum_of_numbers)
+
+print("----------------------------")
+
+# 4. Given a list of numbers [10, 20, 30, 40, 50], find the maximum number using the `max()` function and print the result.
+# Input: [10, 20, 30, 40, 50]
+# Expected Output: 50
+
