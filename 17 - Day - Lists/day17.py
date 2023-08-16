@@ -84,11 +84,20 @@ print("Question - 03")
 input_numbers = input("Enter a list of Numbers (Space Seperated) : ")
 list_numbers = [int(num) for num in input_numbers.split()]
 sum_of_numbers = sum(list_numbers)
-print("The Sum of Numbers for the given List numbers", list_numbers, "are :", sum_of_numbers)
+print("The Sum of Numbers for the given List numbers", list_numbers, "is :", sum_of_numbers)
 
 print("----------------------------")
 
 # 4. Given a list of numbers [10, 20, 30, 40, 50], find the maximum number using the `max()` function and print the result.
 # Input: [10, 20, 30, 40, 50]
 # Expected Output: 50
+
+print("Question - 04")
+list_of_numbers = [10, 20, 30, 40, 50]
+maximum_number = max(list_of_numbers)
+print("The Maximum Number in the given numbers", list_of_numbers, "is :", maximum_number)
+
+print("----------------------------")
+
+
 
