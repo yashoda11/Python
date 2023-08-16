@@ -112,7 +112,8 @@ else :
     print("Name not found")
 
 print("-Input Method-")
-names = [name for name in (input("Enter Names (Space-seperated) : ")).split()]
+input_names = input("Enter Names (Space-seperated) : ")
+names = [name for name in input_names.split()]
 gi_name = input("Enter a name to check : ")
 
 if gi_name in names:
