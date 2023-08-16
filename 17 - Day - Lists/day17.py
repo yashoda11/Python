@@ -99,5 +99,23 @@ print("The Maximum Number in the given numbers", list_of_numbers, "is :", maximu
 
 print("----------------------------")
 
+# 5. Write a Python program that takes a list of names ["Alice", "Bob", "Charlie"] and checks if a given name (e.g., "Alice") is present in the list. Print "Name found" if the name is in the list; otherwise, print "Name not found".
+# Input: Names = ["Alice", "Bob", "Charlie"], Name = "Alice"
+# Expected Output: "Name found"
 
+print("Question - 05")
+list_of_names = ["Alice", "Bob", "Charlie"]
+given_name = "Alice"
+if given_name in list_of_names :
+    print("Name Found")
+else :
+    print("Name not found")
 
+print("-Input Method-")
+names = [name for name in (input("Enter Names (Space-seperated) : ")).split()]
+gi_name = input("Enter a name to check : ")
+
+if gi_name in names:
+    print ("Name found")
+else :
+    print("Name not found")
