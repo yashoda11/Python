@@ -73,7 +73,7 @@ print("Question - 03")
 tuple1 = (1, 2, 3)
 tuple2 = ('a', 'b', 'c')
 tuple = tuple1 + tuple2
-print(tuple)
+print("Concatenation of two tuples",tuple1, "and", tuple2, ":", tuple)
 
 print("---------------------------------------------------------")
 
@@ -124,6 +124,6 @@ print("---------------------------------------------------------")
 print("Question - 07")
 fruits = ('apple', 'banana', 'orange')
 fruits1, fruits2, fruits3 = fruits
-print("fruits1 :", fruits1)
-print("fruits2 :", fruits2)
-print("fruits3 :", fruits3)
+print("fruits1 =", fruits1)
+print("fruits2 =", fruits2)
+print("fruits3 =", fruits3)
