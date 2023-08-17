@@ -87,6 +87,7 @@ print("Question - 05")
 list = set([5, 10, 15, 20])
 print(list)
 
+
 print("-----------------------------------------------------------------")
 
 # **Question 6: Adding multiple elements to a set**
