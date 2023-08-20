@@ -24,7 +24,7 @@ symmetric_difference_set = set1.symmetric_difference(set2)
 print(symmetric_difference_set)  # Output: {1, 2, 5, 6}
 ```
 
-2. *8Membership Test :**
+2. *Membership Test :**
 
 ```my_set = {1, 2, 3, 4, 5}
 print(3 in my_set)  # Output: True
