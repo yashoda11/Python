@@ -12,7 +12,7 @@ print("The Sum of", a, "and", b, "is :", a + b)
 # **Expected Output:** Greeting message with your name, e.g., "Hello, John!"
 
 name = "Yashoda!"
-print("hello, ", name)
+print("hello,", name)
 
 #3. Define a variable `pi` and assign the value of π (pi) to it. Print the value of `pi`.
 # **Expected Output:** The value of π (pi), e.g., 3.14159.
@@ -36,6 +36,7 @@ sentence = "I Love Python  "
 num_str = input("Enter Specified number :")
 num_int = int(num_str)
 print("The sentence repeated the specified number of times (",num_int,") is :",sentence * num_int)
+print("q"*2)
 
 # 6. Given two variables `x` and `y`, perform the following operations and print the results:
 #     - Addition of `x` and `y`.
@@ -48,7 +49,7 @@ print("The sentence repeated the specified number of times (",num_int,") is :",s
 
 # In Python, we can perform floor division (also sometimes known as integer division) using the // operator. This operator will divide the first argument by the second and round the result down to the nearest whole number, making it equivalent to the math.floor() function.
 
-x = 4
+x = 5
 y =  2
 
 print("Addition(+) of x and y is :", x + y)

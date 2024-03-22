@@ -6,3 +6,14 @@ sum = 0
 for i in range (1,6):
     sum +=i
 print(sum)
+
+
+sum = 0
+
+for i in range(1, 11):
+    si = 0
+    for j in range(1, i+1):
+        si+=1
+    sum+=si
+
+print(sum)

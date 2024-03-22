@@ -12,4 +12,3 @@ print("The Even Numbers from 2 to 10 are : ")
 while num <= 10 :
     print(num)
     num += 2
-

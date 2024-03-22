@@ -96,4 +96,3 @@ while num <= 20 :
         break
     print(num)
     num +=1
-

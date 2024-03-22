@@ -209,7 +209,7 @@ print(result)
 
 # 15. Example: Using "not" operator with an expression
 # Input: not (10 > 5 and "car" != "car")
-# Output: False
+# Output: False // "TRUE"
 
 print("Question - 15")
 x = 10 > 5

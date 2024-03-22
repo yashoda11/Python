@@ -10,3 +10,19 @@ if ( x == "a" or x == "e" or x == "i" or x == "o" or x == "u") :
     print("Vowel");
 else :
     print("Consonant")
+
+
+
+def isVowelOrCons(char):
+    vowels = "aeiouAEIOU"
+    if char in vowels:
+        print("Vowel")
+    else:
+        print("consonant")
+
+character = input("Enter a Character : ")
+
+if len(character) == 1 and character.isalpha():
+    isVowelOrCons(character)
+else:
+    print("Invalid")

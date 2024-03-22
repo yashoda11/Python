@@ -22,6 +22,7 @@ print(a + "" + b + "" + c);
 
 a = input("Enter your Name : ");
 print("Your Name is : " + a);
+print("Your name is :", a)
 
 
 # Questions to Practice (Day 1):

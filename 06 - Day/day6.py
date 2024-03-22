@@ -116,4 +116,11 @@ print("The Reverse of the given sentence using slicing is :", sentence[::-1] )
 # Output: 14
 
 sentence = "Coding is fun!"
-print("The length of the given Sentence(" , sentence, ") :", len(sentence))
+print("1. The length of the given Sentence(" , sentence, ") :", len(sentence))
+
+print("2.", len(sentence[:]))
+
+length = 0
+for char in sentence:
+    length += 1
+print("3.", length)

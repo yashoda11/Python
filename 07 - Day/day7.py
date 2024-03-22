@@ -90,6 +90,7 @@ print('True == False is :', True == False)
 
 print("Question No : 10")
 print('"apple" < "banana" is :', "apple" < "banana")
+print('"apple" < "Banana" is :', "apple" < "Banana")
 
 # 11. Example: Comparing None with a string
 # Input: None == "Python"
